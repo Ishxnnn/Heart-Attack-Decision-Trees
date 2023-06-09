@@ -6,7 +6,7 @@ This project utilizes machine learning models to predict heart attack occurrence
 ## Models
 Three decision tree models were developed:
 
-1. A model with all 13 features.
+1. A model with all provided features.
 2. A model with the 5 highest correlated features.
 3. A model with 2 highly predictive features.
 
@@ -21,7 +21,7 @@ Following the initial analysis, decision tree models were trained to predict hea
 ## Findings
 The findings of the project were mixed. The basic feature analysis revealed weak correlations between age and likelihood of heart attacks and no clear connection between cholesterol levels and heart attack likelihood. However, a higher maximum heart rate was found to be a significant factor in heart attack likelihood.
 
-The decision tree models performed with varying levels of success. The model utilizing all 13 features had the highest accuracy, while the model using only sex and chest pain as features was only marginally less accurate.
+The decision tree models performed with varying levels of success. The model utilizing all features expectedly had the highest accuracy, while the model using only sex and chest pain as features was only marginally less accurate.
 
 ## Future Work
 Future work includes the creation of additional machine learning models to predict heart attack occurrences with an accuracy of >95%, the development of more decision tree models to determine other pairs of features that can predict heart attacks with high accuracy, and the exploration of other machine learning models such as k-nearest models and various boosting algorithms.
