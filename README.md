@@ -1,7 +1,7 @@
 # Predicting Heart Attacks through Analysis of Features
 
 ## Project Overview
-This project utilizes machine learning models to predict heart attack occurrences. The models were built and trained using a dataset containing 13 health-related features and an output variable signifying whether an individual has suffered a heart attack.
+This project utilizes machine learning models to predict heart attack occurrences. The models were built and trained using a dataset containing health-related features and an output variable signifying whether an individual has suffered a heart attack.
 
 ## Models
 Three decision tree models were developed:
